@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="900" height="360" role="img" aria-labelledby="titleDesc">
+  <title id="titleDesc">James Code Craft logo</title>
+
+  <!-- Transparent background (keeps it flexible). If you want a dark background, uncomment the rect below -->
+  <!-- <rect width="100%" height="100%" fill="#0f172a"/> -->
+
+  <!-- Left accent: subtle code bracket -->
+  <g transform="translate(60,80)">
+    <rect x="0" y="0" width="120" height="200" rx="12" fill="none"/>
+    <text x="60" y="115" font-family="Segoe UI, Roboto, 'Helvetica Neue', Arial, sans-serif"
+          font-size="88" text-anchor="middle" fill="#38bdf8" font-weight="700" letter-spacing="1">
+      &lt;/&gt;
+    </text>
+  </g>
+
+  <!-- Text block -->
+  <g transform="translate(240,90)">
+    <!-- Large NAME -->
+    <text x="0" y="70" font-family="Montserrat, 'Segoe UI', Roboto, Arial, sans-serif"
+          font-size="96" fill="#ffffff" font-weight="800" letter-spacing="2">
+      JAMES
+    </text>
+
+    <!-- Smaller descriptor -->
+    <text x="0" y="150" font-family="Montserrat, 'Segoe UI', Roboto, Arial, sans-serif"
+          font-size="36" fill="#94a3b8" font-weight="600" letter-spacing="3">
+      CODE CRAFT
+    </text>
+
+    <!-- Thin accent line under the name -->
+    <rect x="0" y="170" width="260" height="4" rx="2" fill="#38bdf8" transform="translate(-0,8)"/>
+  </g>
+</svg>

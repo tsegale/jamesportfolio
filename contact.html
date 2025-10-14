@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>James | Contact</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="James Code Craft">
+          <img
+            src="assets/logo.svg"
+            alt="James Code Craft logo"
+            class="logo-img"
+          />
+        </a>
+
+        <nav class="nav">
+          <button
+            class="nav-toggle"
+            id="navToggle"
+            aria-label="Toggle navigation"
+          >
+            ☰
+          </button>
+          <ul class="nav-list" id="navList">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="contact-page fade-in">
+      <section class="contact-container">
+        <h1>📬 Get In Touch</h1>
+        <p>
+          Have a question, collaboration idea, or just need a developer? Feel
+          free to reach out through the form below or via my social links.
+        </p>
+
+        <form
+          class="contact-form"
+          id="contactForm"
+          action="https://formspree.io/f/xpwykajz"
+          method="post"
+        >
+          <div class="form-group">
+            <input type="text" name="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input type="text" name="subject" placeholder="Subject" />
+          </div>
+          <div class="form-group">
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              rows="6"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn-send">Send Message</button>
+          <div id="formStatus" class="form-status"></div>
+        </form>
+
+        <div class="contact-info">
+          <a href="mailto:your.email@email.com">📧 jamesparata453@gmail.com</a>
+          <a href="https://github.com/tsegale" target="_blank">💻 GitHub</a>
+          <a href="https://linkedin.com/in/jamesparata" target="_blank"
+            >🌐 LinkedIn</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-logo">
+          <img
+            src="assets/logo.svg"
+            alt="James Code Craft Logo"
+            class="footer-logo-img"
+          />
+        </div>
+
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="footer-socials">
+          <a
+            href="https://github.com/tsegale"
+            target="_blank"
+            aria-label="GitHub"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/jamesparata"
+            target="_blank"
+            aria-label="LinkedIn"
+          >
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="jamesparata453@gmail.com" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          &copy; <span id="year"></span> James Code Craft. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

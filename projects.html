@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>James | Projects</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="James Code Craft">
+          <img
+            src="assets/logo.svg"
+            alt="James Code Craft logo"
+            class="logo-img"
+          />
+        </a>
+
+        <nav class="nav">
+          <button
+            class="nav-toggle"
+            id="navToggle"
+            aria-label="Toggle navigation"
+          >
+            ☰
+          </button>
+          <ul class="nav-list" id="navList">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="projects fade-in">
+        <div class="projects-header fade-in">
+          <h2>Projects</h2>
+          <p>
+            A collection of my work across AI, Software Engineering, and IT
+            systems, reflecting a deep passion for technology and innovation.
+          </p>
+        </div>
+
+        <div class="project-category">
+          <h2 class="category-title">
+            AI & Data Projects
+            <span class="category-line"></span>
+          </h2>
+
+          <div class="projects-grid">
+            <div class="project-card">
+              <div class="project-content">
+                <h3>AI-Powered Study Assistant</h3>
+                <p>
+                  Built an AI platform that summarizes lecture notes, generates
+                  quizzes, and creates flashcards. Implemented spaced repetition
+                  for personalized learning with a progress dashboard.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-badge"
+                    ><i class="fab fa-react"></i> React</span
+                  >
+                  <span class="tech-badge"
+                    ><i class="fab fa-python"></i>Flask</span
+                  >
+                  <span class="tech-badge"
+                    ><i class="fas fa-robot"></i>OpenAI API</span
+                  >
+                </div>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-btn code">View Code</a>
+                <a href="#" class="project-btn demo">Live Demo</a>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-content">
+                <h3>Smart Resume Analyzer</h3>
+                <p>
+                  An application that analyzes resumes and provides keyword
+                  recommendations using NLP. Extracts skills and compares them
+                  to job descriptions for better job matching.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-badge"
+                    ><i class="fab fa-python"></i> Python</span
+                  >
+                  <span class="tech-badge"
+                    ><i class="fas fa-brain"></i> NLP</span
+                  >
+                  <span class="tech-badge"
+                    ><i class="fab fa-python"></i> Streamlit</span
+                  >
+                </div>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-btn code">View Code</a>
+                <a href="#" class="project-btn demo">Live Demo</a>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-content">
+                <h3>Fake News Detector</h3>
+                <p>
+                  Designed a text classification model to identify fake vs. real
+                  news using logistic regression and TF-IDF. Achieved high
+                  accuracy through data preprocessing.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-badge"
+                    ><i class="fab fa-python"></i> Python</span
+                  >
+                  <span class="tech-badge"
+                    ><i class="fas fa-atom"></i> Scikit-learn</span
+                  >
+                  <span class="tech-badge"
+                    ><i class="fas fa-brain"></i> NLP</span
+                  >
+                </div>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-btn code">View Code</a>
+                <a href="#" class="project-btn demo">Live Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-category">
+          <h2 class="category-title">
+            Software Engineering & Web Apps
+            <span class="category-line"></span>
+          </h2>
+
+          <div class="projects-grid">
+            <div class="project-card">
+              <div class="project-content">
+                <h3>Job Board with AI Resume Matching</h3>
+                <p>
+                  Job portal where employers post jobs and applicants upload
+                  resumes. Integrated AI-based resume-job matching to improve
+                  candidate recommendations.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-badge"
+                    ><i class="fab fa-react"></i> Next.js</span
+                  >
+                  <span class="tech-badge"
+                    ><i class="fab fa-python"></i> Flask</span
+                  >
+                  <span class="tech-badge"
+                    ><i class="fas fa-robot"></i> OpenAI API</span
+                  >
+                </div>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-btn code">View Code</a>
+                <a href="#" class="project-btn demo">Live Demo</a>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-content">
+                <h3>Personal Finance Tracker</h3>
+                <p>
+                  Web app that tracks income and expenses, visualizing spending
+                  with charts. Includes authentication and CRUD operations for
+                  user data.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-badge"
+                    ><i class="fab fa-react"></i> React</span
+                  >
+                  <span class="tech-badge"
+                    ><i class="fab fa-node-js"></i> Node.js</span
+                  >
+                  <span class="tech-badge"
+                    ><i class="fas fa-database"></i> MongoDB</span
+                  >
+                </div>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-btn code">View Code</a>
+                <a href="#" class="project-btn demo">Live Demo</a>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-content">
+                <h3>Pathfinding Visualizer</h3>
+                <p>
+                  Interactive tool visualizing graph algorithms including BFS,
+                  DFS, Dijkstra’s, and A*. Implements grid-based graph
+                  representation with dynamic obstacles.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-badge"
+                    ><i class="fab fa-js"></i> JavaScript</span
+                  >
+                  <span class="tech-badge"
+                    ><i class="fab fa-react"></i> React</span
+                  >
+                </div>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-btn code">View Code</a>
+                <a href="#" class="project-btn demo">Live Demo</a>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-content">
+                <h3>File Compression Tool (Huffman Coding)</h3>
+                <p>
+                  Text file compressor using Huffman coding for lossless
+                  compression. Built with priority queues and binary trees.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-badge"
+                    ><i class="fab fa-cuttlefish"></i> C++</span
+                  >
+                  <span class="tech-badge"
+                    ><i class="fas fa-code"></i> Algorithms</span
+                  >
+                </div>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-btn code">View Code</a>
+                <a href="#" class="project-btn demo">Live Demo</a>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-content">
+                <h3>Autocomplete & Spell Checker</h3>
+                <p>
+                  Predictive text system using Trie data structures with
+                  spell-check powered by Levenshtein distance.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-badge"
+                    ><i class="fab fa-python"></i> Python</span
+                  >
+                  <span class="tech-badge"
+                    ><i class="fas fa-sitemap"></i> Trie</span
+                  >
+                </div>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-btn code">View Code</a>
+                <a href="#" class="project-btn demo">Live Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-category">
+          <h2 class="category-title">
+            Systems & IT Tools
+            <span class="category-line"></span>
+          </h2>
+
+          <div class="projects-grid">
+            <div class="project-card">
+              <div class="project-content">
+                <h3>Network Monitoring Dashboard</h3>
+                <p>
+                  Dashboard for monitoring network devices using SNMP,
+                  visualizing uptime and latency trends in real time.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-badge"
+                    ><i class="fab fa-python"></i> Python</span
+                  >
+                  <span class="tech-badge"
+                    ><i class="fas fa-server"></i> Flask</span
+                  >
+                  <span class="tech-badge"
+                    ><i class="fas fa-chart-line"></i> Grafana</span
+                  >
+                </div>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-btn code">View Code</a>
+                <a href="#" class="project-btn demo">Live Demo</a>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-content">
+                <h3>Automated Backup System</h3>
+                <p>
+                  Scripted automatic database/file backups to AWS S3 using cron
+                  jobs, improving reliability and reducing errors.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-badge"
+                    ><i class="fab fa-python"></i> Bash/Python</span
+                  >
+                  <span class="tech-badge"
+                    ><i class="fab fa-aws"></i> AWS S3</span
+                  >
+                </div>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-btn code">View Code</a>
+                <a href="#" class="project-btn demo">Live Demo</a>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-content">
+                <h3>Linux Server Hardening</h3>
+                <p>
+                  Secured a Linux server with firewall configuration, intrusion
+                  prevention, and monitoring scripts.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-badge"
+                    ><i class="fab fa-linux"></i> Linux</span
+                  >
+                  <span class="tech-badge"
+                    ><i class="fas fa-shield-alt"></i> Fail2Ban</span
+                  >
+                </div>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-btn code">View Code</a>
+                <a href="#" class="project-btn demo">Live Demo</a>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-content">
+                <h3>Help Desk Ticketing System</h3>
+                <p>
+                  IT support platform to log, assign, and track tickets with
+                  prioritization and role-based access.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-badge"><i class="fab fa-php"></i> PHP</span>
+                  <span class="tech-badge"
+                    ><i class="fab fa-node-js"></i> Node.js</span
+                  >
+                  <span class="tech-badge"
+                    ><i class="fas fa-database"></i> MySQL</span
+                  >
+                </div>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-btn code">View Code</a>
+                <a href="#" class="project-btn demo">Live Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-logo">
+          <img
+            src="assets/logo.svg"
+            alt="James Code Craft Logo"
+            class="footer-logo-img"
+          />
+        </div>
+
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="footer-socials">
+          <a
+            href="https://github.com/tsegale"
+            target="_blank"
+            aria-label="GitHub"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/jamesparata/"
+            target="_blank"
+            aria-label="LinkedIn"
+          >
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="jamesparata453@gmail.com" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          &copy; <span id="year"></span> James Code Craft. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
